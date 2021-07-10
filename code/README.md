@@ -7,5 +7,4 @@
 After intall requirements, just run main.py. Then data and model will be automatically loaded.
 
 ## Acknowledgement
-The proposed dynamic propagation scheme of SDG is triggered by receiving the initial output of the static model PPNP.
-**[Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://github.com/klicperajo/ppnp)** by Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann.
+The proposed dynamic propagation scheme of SDG is triggered by receiving the initial output of the static model [PPNP](https://github.com/klicperajo/ppnp)(Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann. Predict then Propagate: Graph Neural Networks meet Personalized PageRank, ICLR' 2019).
