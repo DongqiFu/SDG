@@ -1,7 +1,7 @@
 ## Requirements
-numpy 1.14.6
-scipy 1.2.1
-pytorch 1.6.0
+- numpy 1.14.6
+- scipy 1.2.1
+- pytorch 1.6.0
 
 ## How to Run
 After intall requirements, just run main.py. Then data and model will be automatically loaded.
