@@ -1,4 +1,4 @@
-# SDG (A Simplified and Dynamic Graph Neural Network)
+# SDG
 This repository is for the SIGIR'2021 paper "SDG: A Simplified and Dynamic Graph Neural Network".
 
 ## Reference
