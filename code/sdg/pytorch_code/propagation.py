@@ -67,7 +67,7 @@ def track_ppr(adj_matrix: sp.spmatrix, masked_adj_matrix: sp.spmatrix, ppr_mat, 
         acc_pushout += new_temp @ pushout
         temp = new_temp
 
-    t_ppr = ppr_mat + acc_pushout
+    t_ppr = ppr_mat + acc_pushout.T
     # ------------------------------------ #
 
     return t_ppr
