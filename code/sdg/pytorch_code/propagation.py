@@ -30,7 +30,7 @@ def mask_adj_matrix(adj_matrix: sp.spmatrix) -> sp.spmatrix:
     masked_n_edges = 100
     influenced_n_nodes = int(math.sqrt(masked_n_edges / 2))
     influenced_nodes = random.sample(range(1, nnodes), influenced_n_nodes)
-    masked_adj_matrix = adj_matrix
+    masked_adj_matrix = adj_matrix.copy()
     for i in range(len(influenced_nodes)):
         for j in range(i + 1, len(influenced_nodes)):
             masked_adj_matrix[influenced_nodes[i], influenced_nodes[j]] = 0
